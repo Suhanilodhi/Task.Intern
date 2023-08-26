@@ -1,0 +1,109 @@
+body{
+    background-image: url(./image/colorful-wallpaper-background-multicolored-generative-ai.jpg);
+    color: #fff;
+    padding:40px;
+    box-sizing: border-box;
+
+}
+.App{
+    text-align: center;  
+}
+.nav{
+    color: pink;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+
+}
+
+.sidenav{
+    height: 100%;  width: 10%;  position: fixed; z-index: 1; top: 0; right: 0; background-color:#821661; transition: .5s ease; overflow-x: hidden; padding-top: 20px; display: flex; flex-direction: column; align-items: center; 
+}
+.container{
+    max-width:1300px;
+    margin:auto;
+    padding:0px 20px;
+}
+section{
+    min-height:10vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+h4{
+    font-size:50px;
+    line-height:60px;
+    text-align: center;
+    margin-top: 40px;
+    color: wgite;
+}
+p{
+    color:black;
+}
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+}
+h5{
+    color:white;
+}
+.card{
+    flex:0 0 calc(33.33%-10px);
+    max-width:calc(33.33%-10px);
+    background-color:purple;
+    border-radius: 0px;
+    padding: 10px;
+    width:26%;
+    margin-bottom:37px;
+    transition:.3s;
+    border:2px solid transparent;
+
+}
+.card:hover{
+    border-color:blue;
+}
+h1{
+    color:brown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.sidenav.btn{
+    border: 12px;;
+    outline:black;
+    background-color: blue;
+    color:azure;
+    border-radius: 10px;
+    max-width: 120px;
+    width:10%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor:pointer;
+    transition:.3s;
+    border:1px solid rgb(18, 7, 141);
+}
+.Sidenav.btn:hover{
+    background-color: peachpuff;
+    color: rgb(73, 15, 128);
+}
+@media(max-width:600px){
+    section{
+        padding:20px 0px;
+    }
+    h1{
+        font-size:30px;
+        line-height:40px;
+    }
+    .card{
+        flex: 0 0calc(50%-20px);
+        max-width:calc(50%-20px);
+    }
+}
